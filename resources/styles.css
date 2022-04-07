@@ -1,6 +1,7 @@
+
 .defaultText {
   font-size: 32;
-  font-family: System-Regular;
+  font-family: x-font;
   font-weight: regular;
   text-length: 32;
 }
@@ -9,4 +10,10 @@
   width: 100%;
   height: 100%;
   fill: white;
+}
+
+#myLabel {
+  x: 50%;
+  y: 35%;
+  fill: green;
 }

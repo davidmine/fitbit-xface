@@ -4,8 +4,8 @@
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
-    "@fitbit/sdk": "~4.0.0-pre.4",
-    "@fitbit/sdk-cli": "^1.7.0-pre.1",
+    "@fitbit/sdk": "~6.1.0",
+    "@fitbit/sdk-cli": "^1.7.3",
     "fitbit-sdk-types": "^7.0.5"
   },
   "fitbit": {
@@ -16,7 +16,8 @@
     "wipeColor": "#ffffff",
     "requestedPermissions": [],
     "buildTargets": [
-      "mira"
+      "atlas",
+      "vulcan"
     ],
     "i18n": {},
     "defaultLanguage": "en-US"
@@ -24,8 +25,5 @@
   "scripts": {
     "build": "fitbit-build",
     "debug": "fitbit"
-  },
-  "dependencies": {
-    "fitfont": "^1.3.3"
   }
 }
